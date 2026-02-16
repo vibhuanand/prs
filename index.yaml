@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Vaibhav Anand — Open Source PR Feed</title>
+
+    <meta property="og:title" content="Vaibhav Anand — Open Source PR Feed" />
+    <meta property="og:description" content="Live feed of my open and merged pull requests across OSS projects." />
+
+    <meta http-equiv="refresh" content="0; url=https://github.com/search?q=is%3Apr+author%3Avibhuanand+sort%3Aupdated-desc&type=pullrequests" />
+  </head>
+  <body>
+    Redirecting to PR feed...
+  </body>
+</html>
