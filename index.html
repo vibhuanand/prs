@@ -3,30 +3,96 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Open Source PR Feed — vibhuanand</title>
 
-    <meta property="og:title" content="Open Source PR Feed — vibhuanand" />
-    <meta property="og:description" content="Live list of my open + merged pull requests across OSS projects." />
+    <title>Vaibhav Anand — Open Source PR Feed</title>
+
+    <!-- Canonical + LinkedIn Fix -->
+    <link rel="canonical" href="https://vibhuanand.github.io/prs/" />
+    <meta property="og:url" content="https://vibhuanand.github.io/prs/" />
+
+    <meta property="og:title" content="Vaibhav Anand — Open Source PR Feed" />
+    <meta property="og:description" content="Live list of my open + merged pull requests across GitHub repositories." />
     <meta property="og:type" content="website" />
+
+    <style>
+      body {
+        margin: 0;
+        background: #0b1220;
+        color: #e5e7eb;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 64px 24px;
+      }
+
+      .repo {
+        opacity: 0.7;
+        margin-bottom: 14px;
+        font-size: 14px;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-size: 46px;
+        letter-spacing: -0.02em;
+      }
+
+      p {
+        margin: 0 0 32px;
+        font-size: 18px;
+        opacity: 0.85;
+        line-height: 1.6;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 16px 22px;
+        border-radius: 14px;
+        background: #22c55e;
+        color: #06120a;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        transition: 0.2s ease;
+      }
+
+      .btn:hover {
+        background: #16a34a;
+      }
+
+      .footer {
+        margin-top: 24px;
+        font-size: 13px;
+        opacity: 0.5;
+      }
+    </style>
   </head>
 
-  <body style="margin:0;background:#0b1220;color:#e5e7eb;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;">
-    <div style="max-width:900px;margin:0 auto;padding:56px 24px;">
-      <div style="opacity:.85;margin-bottom:12px;">vibhuanand / oss-pr-feed</div>
-      <h1 style="margin:0 0 14px;font-size:44px;letter-spacing:-.02em;">Open Source PR Feed</h1>
-      <p style="margin:0 0 28px;font-size:18px;opacity:.85;line-height:1.5;">
-        Live list of my <b>open</b> + <b>merged</b> pull requests across GitHub.
+  <body>
+    <div class="container">
+      <div class="repo">vibhuanand / open-source</div>
+
+      <h1>Open Source PR Feed</h1>
+
+      <p>
+        Live feed of my <strong>open</strong> + <strong>merged</strong>
+        pull requests across OSS projects.
       </p>
 
       <a
+        class="btn"
         href="https://github.com/search?q=is%3Apr+author%3Avibhuanand+sort%3Aupdated-desc&type=pullrequests"
-        style="display:inline-block;padding:14px 18px;border-radius:12px;background:#22c55e;color:#06120a;text-decoration:none;font-weight:700;font-size:16px;"
+        target="_blank"
       >
-        View PRs →
+        View Pull Requests →
       </a>
 
-      <div style="margin-top:18px;font-size:13px;opacity:.65;">
-        Tip: bookmark this page — it always stays current.
+      <div class="footer">
+        Always current • GitHub search powered
       </div>
     </div>
   </body>
